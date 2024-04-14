@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Jun Wang Personal Docs Site',
+  title: 'Personal Docs Site',
   tagline: 'Life is short, use your judgement.',
   favicon: 'img/favicon.ico',
 
@@ -64,12 +64,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/dyte-docs-card.png',
       navbar: {
-        title: 'Jun Wang Personal Docs Site',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          href: '/',
+          src: '/logo/light.svg',
+          srcDark: '/logo/dark.svg',
+          alt: 'Dyte Documentation | Dyte Docs',
+          height: '40px',
+          width: '101px',
         },
         items: [
           {
