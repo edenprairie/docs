@@ -7,12 +7,34 @@ sidebar_position: 1
 ## Credential management:
 
 - Categorized credentials into layers:
-    - Tier 1: Identification account, email, mobile phone account, global entry account, credit bureaus account
-        - Don't save the password into Bitwarden, LastPass, write on paper as backup, also can be an offline spreadsheet, password use a self-recognized algorithm to memorize
-        - When choosing back up an email account, prefer to use a different provider, like use Hotmail as a backup for a Gmail account
-        - Password should be rotated at least every 60 days.
+    - Tier 1: Identification account 
+      - Accounts: Email, Mobile Phone Account, Global Entry Account, Credit Bureaus Account
+      - Password Handling
+        - Do not save passwords in Bitwarden, LastPass, or browser password managers
+        - Use a self-recognized algorithm to memorize passwords.
+        - Backup passwords on paper or offline spreadsheet.
+        - Rotate passwords at least every 60 days.
+      - Email Backup:
+        - Prefer using a different provider for backup (e.g., use Hotmail as backup for Gmail).
         - Never store passwords in either Chrome or another browser's password manager.
+    - Tier 1.5: Financial Accounts
+      - Accounts: Online Banking, Retirement Account, Credit Online Account
+      - Password Handling:
+        - Follow Tier 1 guidelines for password management.
+        - Do not store passwords using online services.
         - Always use 2FA, prefer to use hardware key, i.e. [Yubikey](https://www.amazon.com/Yubico-YubiKey-USB-Authentication-Security/dp/B07HBD71HL/ref=sr_1_1_sspa?crid=2FBQWHAI81FL5&dchild=1&keywords=yubikey+5c+nfc&qid=1626007373&sprefix=yubi%2Caps%2C379&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMVJYTUVRSVhKTjJBJmVuY3J5cHRlZElkPUEwNTgxMDUxMUlERkpUUFhQV1dFNCZlbmNyeXB0ZWRBZElkPUEwMzA2NjMzMjhMRjNOSkkyRFYxQyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=), authenticator apps include Microsoft, Google or Symantec, etc. Remember to download and write down backup code in case of cell phone damage or loss.
+    - Tier 2: Online Shopping Accounts
+      - Accounts: Online Shopping
+        - Password Handling:
+        - Passwords must be unique and not used in Tier 1 or 1.5 accounts.
+        - Avoid saving credit card information on shopping websites.
+        - Use guest checkout for infrequently visited sites.
+        - Store passwords in Bitwarden using generated strong passwords.
+    - Tier 3: Social Media Accounts
+      - Accounts: Social Media
+      - Password Handling:
+        - Follow Tier 2 guidelines for password management.
+        - Use Bitwarden to store passwords with generated strong passwords.
     - Tier 1.5: Online banking, Retirement account, Credit online account
         - Don't store this tier password using an online service, refer to tier 1 guidance.
         - all other tier 1 rules
@@ -29,16 +51,24 @@ sidebar_position: 1
 
 ## Computer and networking management:
 
-- each user to create its own account to log into the computer
-- For tier 1 and 1.5 account access, only use an approved computer.
-- Install approved anti-virus/malware software on each one of the computers. Update database as well as scan whole disk at least weekly
-- setup automatically system update for each one of computers
-- If anyone of the computer needs to have a guest account, create one on a dedicated computer.
-- Wi-Fi router port forwarding needs to be shut down unless any rules are approved by the board.
-- Wi-Fi passwords need to be complex enough to meet tier 1 requirements. This password needs to be rotated every 60 days.
-- Wi-Fi access point stops broadcasting, so no one can scan it unless know the SSID name.
-- NAS can't use external services like Synology quick connect etc.
-- Scan NAS virus every month.
+    - User Accounts:
+      - Each user must have a dedicated account to log into the computer.
+    - Access Control:
+      - Tier 1 and 1.5 accounts should only be accessed from approved computers.
+    - Security Software:
+      - Install approved anti-virus/malware software on all computers.
+      - Update antivirus/malware database and perform disk scans weekly.
+    - System Updates:
+      - Set up automatic system updates for all computers.
+    - Guest Accounts:
+      - Create guest accounts only on dedicated computers when needed.
+    - Network Security:
+      - Disable Wi-Fi router port forwarding unless approved by authorized personnel.
+      - Rotate Wi-Fi passwords every 60 days and ensure they meet Tier 1 password requirements.
+      - Stop Wi-Fi access point broadcasting (SSID) to prevent unauthorized access.
+    - Network-Attached Storage (NAS):
+      - Do not use external services like Synology Quick Connect.
+      - Scan NAS for viruses monthly.
 
 ## References
 
