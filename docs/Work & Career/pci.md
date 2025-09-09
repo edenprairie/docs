@@ -1,6 +1,6 @@
 # PCI device pass through issue: - IOMMU not present
 
-It wasn't being updated by update-grub. Maybe a rookie mistake but, I never had update-grub fail to update before. I tried to update with grub-mkconfig and to reinstall grub via grub-install. None of them worked. What worked was what was suggested in this link https://serverfault.com/questions/648468/modifying-kernel-cmdline-in-ubuntu .
+It wasn't being updated by update-grub. Maybe a rookie mistake but, I never had update-grub fail to update before. I tried to update with grub-mkconfig and to reinstall grub via grub-install. None of them worked. What worked was what was suggested in this [link](https://serverfault.com/questions/648468/modifying-kernel-cmdline-in-ubuntu)
 
 create the directory /etc/default/grub.d
 
@@ -8,7 +8,9 @@ create a file ending with “.cfg” in that directory.
 
 add the following to it:
 Code:
+```
 GRUB_CMDLINE_LINUX_DEFAULT="${GRUB_CMDLINE_LINUX_DEFAULT} intel_iommu=on"
+```
 run update-grub.
 
 Rebooted and everything works. Thank you!
