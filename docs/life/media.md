@@ -17,7 +17,7 @@ yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" https://you
 yt-dlp -f bestaudio -x --audio-format mp3 --audio-quality 0 https://youtu.be/aooPKBBxGDM
 
 ### list all format
- yt-dlp -F https://youtu.be/j8T2mDmrmBg
+yt-dlp -F https://youtu.be/j8T2mDmrmBg
 
 ### dowload specific format 
 yt-dlp -f 137 https://youtu.be/j8T2mDmrmBg

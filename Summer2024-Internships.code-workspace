@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../Summer2024-Internships"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../dyte-io"
+		},
+		{
+			"path": "../Astro"
+		},
+		{
+			"path": "../../Cypress/e2e"
+		},
+		{
+			"path": "../PicklePaddleBot"
+		}
+	],
+	"settings": {}
+}
