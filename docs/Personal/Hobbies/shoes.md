@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Collection of my personal shoes
 
 ## Allen Edmonds - Fifth Avenue Cap-Toe Oxford
