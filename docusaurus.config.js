@@ -77,15 +77,45 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'lifeSidebar',
+            sidebarId: 'personalSidebar',
             position: 'left',
-            label: 'Life',
+            label: 'Personal',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'financeSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Finance',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'propertySidebar',
+            position: 'left',
+            label: 'Property',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'workSidebar',
+            position: 'left',
+            label: 'Work & Career',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'familySidebar',
+            position: 'left',
+            label: 'Family',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'legalSidebar',
+            position: 'left',
+            label: 'Legal',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'referenceSidebar',
+            position: 'left',
+            label: 'Reference & Knowledge',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
