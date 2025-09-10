@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Personal Docs Site',
-  tagline: 'Life is short, use your judgement.',
+  title: 'Jun Wang Docs Site',
+  tagline: 'Life is short, enjoy while you can',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'J&J Tech LLC', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -64,13 +64,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/dyte-docs-card.png',
+      image: 'img/jun-docs-card.png',
       navbar: {
         logo: {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Documentation | Dyte Docs',
+          alt: 'Jun Documentation | Jun Docs',
           height: '40px',
           width: '101px',
         },
