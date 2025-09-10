@@ -77,6 +77,12 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'workSidebar',
+            position: 'left',
+            label: 'Work & Career',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'personalSidebar',
             position: 'left',
             label: 'Personal',
@@ -92,12 +98,6 @@ const config = {
             sidebarId: 'propertySidebar',
             position: 'left',
             label: 'Property',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'workSidebar',
-            position: 'left',
-            label: 'Work & Career',
           },
           {
             type: 'docSidebar',
