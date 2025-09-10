@@ -1,3 +1,6 @@
+---
+sidebar_position: 0
+---
 # MBTI assessment
 
 你的人格类型是：
