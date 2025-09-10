@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Job responsibility
 
 • Lead EA strategy and portfolio management for 600+ applications

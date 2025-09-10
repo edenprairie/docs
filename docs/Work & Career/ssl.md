@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # 🔐 Configuring NGINX with Cloudflare Origin Certificate for SSL
 
 This guide shows you how to configure **NGINX** to use a **Cloudflare Origin SSL certificate** on an Ubuntu server, ensuring secure HTTPS connections between your server and Cloudflare.

@@ -1,3 +1,6 @@
+---
+sidebar_position: 0
+---
 # How to communicate with your leader 
 
 How to communicate with your leader 
