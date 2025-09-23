@@ -10,6 +10,8 @@ attn: Max Wang
 Chicago, IL 60616  
 tel: 312-7520898  
 
+Wechat ID: Huang-54310
+
 ## Application cost
 
 芝加哥领事馆的Q2及旅游十年签证费用230刀
