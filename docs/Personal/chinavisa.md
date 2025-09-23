@@ -1,3 +1,6 @@
+---
+sidebar_position: 0
+---
 # How to apply Chinese Q2 VISA
 
 ## Agent contact
