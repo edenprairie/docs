@@ -18,7 +18,8 @@ Wechat ID: Huang-54310
 (包含140刀签证费，以及填表后审核，代递交，代取，代回邮)
 The fee for a Q2 or 10-year tourist visa at the Chicago Consulate is 230 USD (including a 140 USD visa fee, as well as form review, submission service, collection, and return mailing).
 
-寄件人后面➕益达组，（只是让对方好辨认谁寄来找谁付签证费用而已，没有其它意思），寄出前信封拍照给我，寄出去的信封里放入一份回邮信封（收件人变寄件人）并且付过钱的，回邮信封自己拍照后续跟踪谢谢，快件不要邮寄签收的，投件🎁直接通往公司办公室很安全谢谢🙏
+寄件人后面➕益达组，（只是让对方好辨认谁寄来找谁付签证费用而已，没有其它意思），寄出前信封拍照给我，寄出去的信封里放入一份回邮信封（收件人变寄件人）并且付过钱的，回邮信封自己拍照后续跟踪谢谢，快件不要邮寄签收的，投件🎁直接通往公司办公室很安全谢谢🙏 
+如果使用邮局USPS的Priority Mail，邮寄和回邮的费用是21.9刀，包含Delivery Confirmation
 After the sender’s name, please add ‘Yida Group’ (this is only to help the recipient identify who sent it and who should pay the visa fee, nothing else). Before mailing, take a photo of the envelope and send it to me. Inside the mailing envelope, include a prepaid return envelope (with the recipient filled in as the sender). Please also take a photo of the return envelope for future tracking. Do not use registered/confirmation-required delivery for the package; direct drop-off to the company office is very safe. Thank you 🙏.
 
 ## Application form
