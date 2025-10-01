@@ -80,7 +80,7 @@ This will print out measurements such as:
 Once you have the measured values, apply normalization using the loudnorm filter:
 
 ```bash
-ffmpeg -i input.mp4 -af loudnorm=I=-16:TP=-1.5:LRA=11:measured_I=-19.3:measured_TP=-2.1:measured_LRA=9.5:measured_thresh=-29.3:offset=-0.7:linear=true:print_format=summary -c:v copy output.mp4
+ffmpeg -i input.mp4 -af loudnorm=I=-14:TP=-1.5:LRA=11:measured_I=-19.3:measured_TP=-2.1:measured_LRA=9.5:measured_thresh=-29.3:offset=-0.7:linear=true:print_format=summary -c:v copy output.mp4
 ```
 
 Explanation of Parameters:
@@ -95,7 +95,7 @@ If you have many MP4 files, you can automate normalization with a simple shell l
 
 ```bash
 for f in *.mp4; do
-  ffmpeg -i "$f" -af loudnorm=I=-16:TP=-1.5:LRA=11 -c:v copy "normalized_$f"
+  ffmpeg -i "$f" -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:v copy "normalized_$f"
 done
 ``` 
 
@@ -113,7 +113,7 @@ This will create new normalized files with normalized_ as a prefix.
 If you don’t have time to analyze each file individually, you can apply a one-pass normalization:
 
 ```bash
-ffmpeg -i input.mp4 -af loudnorm=I=-16:TP=-1.5:LRA=11 -c:v copy output.mp4
+ffmpeg -i 03-MoonlightSerenade.mp4 -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:v copy 03-MoonlightSerenadeNormalized14.mp4
 ```
 
 This is faster, though less precise.
