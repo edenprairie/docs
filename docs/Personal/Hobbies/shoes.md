@@ -4,26 +4,19 @@ sidebar_position: 1
 
 # Collection of my personal shoes
 
-### Iron Ranger in Copper Rough & Tough Leather
+## 9111 Classic Round Toe Copper Rough & Tough
+STYLE NO. 9111  
+USA 7D; UK 6; EU:39; CM: 25  
+9111, 9212397, 02/25  
+
+![image](https://github.com/user-attachments/assets/fee77974-1234-4133-81a0-33d2e42dcbff)
+
+## Iron Ranger in Copper Rough & Tough Leather
 STYLE NO. 8085  
 USA 7D; UK 6; EU:39; CM: 25  
-8085, 06/25  
-<img width="1200" height="1200" alt="Image" src="https://github.com/user-attachments/assets/f7cf4ae1-a3a1-4d88-b317-41239287946f" />
+8085, 9227096, 06/25  
 
-### Allen Edmonds - Fifth Avenue Cap-Toe Oxford
-![image](https://user-images.githubusercontent.com/24532787/143076432-24c446ab-396e-4d49-8e2e-472c115c974e.png)
-
-### Lowa Renegade GTX Mid Hiking Boots 
-![image](https://user-images.githubusercontent.com/24532787/143076568-aa329deb-3c13-473e-8ffb-3b0c6ddffd41.png)
-
-### Asolo Men's Power Matic 200 GV Backpacking Boot
-![image](https://user-images.githubusercontent.com/24532787/143076802-8b987853-4af6-490d-a3bf-dac5e3abfc40.png)
-
-### Zamberlan 310 Skill GT Hiking Boots
-![image](https://user-images.githubusercontent.com/24532787/143076635-b6d75f80-ad1c-4209-a461-2673b54bde7f.png)
-
-### Montrail Torre GTX EHiking Boots 
-![image](https://user-images.githubusercontent.com/24532787/143076889-8c2d76bf-22ad-4721-ab0c-eacd28c12425.png)
+![image](https://github.com/user-attachments/assets/f7cf4ae1-a3a1-4d88-b317-41239287946f)
 
 ### Caverly Chukka
 STYLE NO. 9095
@@ -89,3 +82,18 @@ USA 7 D; UK 6; EU:39; CM: 25
 
 ### CLASSIC MOC STYLE NO. 8852 LEATHER: VELVA “RETAN”
 ![image](https://user-images.githubusercontent.com/24532787/143076297-2005217a-fc35-4833-811c-d032e20dd5bd.png)
+
+### Allen Edmonds - Fifth Avenue Cap-Toe Oxford
+![image](https://user-images.githubusercontent.com/24532787/143076432-24c446ab-396e-4d49-8e2e-472c115c974e.png)
+
+### Lowa Renegade GTX Mid Hiking Boots 
+![image](https://user-images.githubusercontent.com/24532787/143076568-aa329deb-3c13-473e-8ffb-3b0c6ddffd41.png)
+
+### Asolo Men's Power Matic 200 GV Backpacking Boot
+![image](https://user-images.githubusercontent.com/24532787/143076802-8b987853-4af6-490d-a3bf-dac5e3abfc40.png)
+
+### Zamberlan 310 Skill GT Hiking Boots
+![image](https://user-images.githubusercontent.com/24532787/143076635-b6d75f80-ad1c-4209-a461-2673b54bde7f.png)
+
+### Montrail Torre GTX EHiking Boots 
+![image](https://user-images.githubusercontent.com/24532787/143076889-8c2d76bf-22ad-4721-ab0c-eacd28c12425.png)
