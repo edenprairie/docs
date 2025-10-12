@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # Collection of my personal shoes
 
+### Iron Ranger in Copper Rough & Tough Leather
+STYLE NO. 8085  
+USA 7D; UK 6; EU:39; CM: 25  
+8085, 06/25  
+<img width="1200" height="1200" alt="Image" src="https://github.com/user-attachments/assets/f7cf4ae1-a3a1-4d88-b317-41239287946f" />
+
 ### Allen Edmonds - Fifth Avenue Cap-Toe Oxford
 ![image](https://user-images.githubusercontent.com/24532787/143076432-24c446ab-396e-4d49-8e2e-472c115c974e.png)
 
