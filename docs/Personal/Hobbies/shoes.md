@@ -4,6 +4,13 @@ sidebar_position: 1
 
 # Collection of my personal shoes
 
+### 875 Classic Moc
+STYLE NO. 875  
+USA 6.5E; UK 5.5; EU:38.5; CM: 24.5  
+875, 8046254, 09/22  
+
+![image](https://github.com/user-attachments/assets/73a87b8b-d71a-4f51-a3dc-e42fce9b7ffc)
+
 ## 9111 Classic Round Toe Copper Rough & Tough
 STYLE NO. 9111  
 USA 7D; UK 6; EU:39; CM: 25  
@@ -11,7 +18,7 @@ USA 7D; UK 6; EU:39; CM: 25
 
 ![image](https://github.com/user-attachments/assets/fee77974-1234-4133-81a0-33d2e42dcbff)
 
-## Iron Ranger in Copper Rough & Tough Leather
+### Iron Ranger in Copper Rough & Tough Leather
 STYLE NO. 8085  
 USA 7D; UK 6; EU:39; CM: 25  
 8085, 9227096, 06/25  
