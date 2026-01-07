@@ -11,17 +11,39 @@ The following are some common scripts:
 
 ```shell
 ### download mp4 file with audio
-yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" https://youtu.be/j8T2mDmrmBg
+yt-dlp --cookies-from-browser chrome -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" https://youtu.be/j8T2mDmrmBg
 
 ### download mp3 file from an video 
-yt-dlp -f bestaudio -x --audio-format mp3 --audio-quality 0 https://youtu.be/aooPKBBxGDM
+yt-dlp --cookies-from-browser chrome -f bestaudio -x --audio-format mp3 --audio-quality 0 https://youtu.be/aooPKBBxGDM
 
 ### list all format
-yt-dlp -F https://youtu.be/j8T2mDmrmBg
+yt-dlp --cookies-from-browser chrome -F https://youtu.be/j8T2mDmrmBg
 
 ### dowload specific format 
-yt-dlp -f 137 https://youtu.be/j8T2mDmrmBg
+yt-dlp --cookies-from-browser chrome -f 137 https://youtu.be/j8T2mDmrmBg
 
+```
+
+### check one particular youtube channel video in existing folder and download them all
+```
+while true; do
+  yt-dlp \
+    --cookies-from-browser chrome \
+    --download-archive downloaded.txt \
+    --continue \
+    --ignore-errors \
+    --no-overwrites \
+    --min-sleep-interval 10 \
+    --max-sleep-interval 30 \
+    -o "%(upload_date>%Y-%m-%d)s %(title)s.%(ext)s" \
+    -f "bv*[ext=mp4]+ba*[ext=m4a]/b[ext=mp4]" \
+    --merge-output-format mp4 \
+    "https://www.youtube.com/@del78ful/videos"
+
+  if [ $? -eq 0 ]; then break; fi
+  echo "Restarting..."
+  sleep 10
+done
 ```
 
 ## Spotify
