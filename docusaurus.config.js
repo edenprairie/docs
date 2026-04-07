@@ -115,7 +115,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'referenceSidebar',
             position: 'left',
-            label: 'Reference & Knowledge',
+            label: 'Reference',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -140,10 +140,6 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
