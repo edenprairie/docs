@@ -1,3 +1,7 @@
+---
+title: "12/26/2020 Minnesota IT Chinese Wechat Group meeting #22"
+---
+
 # 12/26/2020 Minnesota IT Chinese Wechat Group meeting #22
 
 ![image](https://user-images.githubusercontent.com/24532787/103180126-7c9e4080-4858-11eb-851a-225b3af00bff.png)

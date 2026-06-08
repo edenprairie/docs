@@ -1,5 +1,6 @@
 ---
 sidebar_position: 99
+title: "Boots and shoes discussion"
 ---
 # Boots and shoes discussion
 ![image](https://user-images.githubusercontent.com/24532787/211679952-d3bd8685-ef02-4c9a-b3c0-4fba6ee83b52.png)

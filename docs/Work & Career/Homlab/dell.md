@@ -1,3 +1,7 @@
+---
+title: "DELL PERC H710 B0 Mini Flash"
+---
+
 # DELL PERC H710 B0 Mini Flash
 
 ![image](https://user-images.githubusercontent.com/24532787/93019881-6d440180-f59f-11ea-9029-aa9a9953f725.png)

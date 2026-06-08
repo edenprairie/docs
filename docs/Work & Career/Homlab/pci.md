@@ -1,3 +1,7 @@
+---
+title: "PCI device pass through issue: - IOMMU not present"
+---
+
 # PCI device pass through issue: - IOMMU not present
 
 It wasn't being updated by update-grub. Maybe a rookie mistake but, I never had update-grub fail to update before. I tried to update with grub-mkconfig and to reinstall grub via grub-install. None of them worked. What worked was what was suggested in this [link](https://serverfault.com/questions/648468/modifying-kernel-cmdline-in-ubuntu)

@@ -1,8 +1,9 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: endi
+authors: [jun]
 tags: [hello, docusaurus]
+draft: true
 ---
 
 This is the summary of a very long blog post,

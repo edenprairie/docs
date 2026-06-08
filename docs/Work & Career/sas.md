@@ -1,3 +1,7 @@
+---
+title: "Dell H200E 6Gbps SAS HBA Dual-Port External Controller Adapter 12DNW"
+---
+
 # Dell H200E 6Gbps SAS HBA Dual-Port External Controller Adapter 12DNW 
 
 Dell H200E 6Gb/s SAS HBA Dual-Port External Controller Adapter

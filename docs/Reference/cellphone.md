@@ -1,5 +1,10 @@
-# Guide: Obtaining and Maintaining a Chinese Mobile Number
-# 指南：办理并维护中国手机卡（外籍人士版）
+---
+title: "Chinese Mobile Number Guide"
+---
+
+# Chinese Mobile Number Guide
+
+指南：办理并维护中国手机卡（外籍人士版）
 
 ---
 

@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+title: "Downloading Social Media Content"
 ---
 
-# How to download social media content
+# Downloading Social Media Content
 
 ## YouTube
 

@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+title: "Personal Shoe Collection"
 ---
 
-# Collection of my personal shoes
+# Personal Shoe Collection
 
 ### 875 Classic Moc
 STYLE NO. 875  

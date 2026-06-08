@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: "Techno Tim homelab"
 ---
 # Techno Tim homelab
 

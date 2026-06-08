@@ -1,0 +1,8 @@
+{
+  "label": "Technology & Career",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Technology notes, career references, learning material, and homelab documentation."
+  }
+}

@@ -1,4 +1,8 @@
-# Rancher2 set up
+---
+title: "Rancher 2 Setup"
+---
+
+# Rancher 2 Setup
 
 ![image](https://user-images.githubusercontent.com/24532787/93495416-b663c080-f8d3-11ea-83cb-201a357c73e9.png)
 
@@ -53,7 +57,7 @@ sudo firewall-cmd --permanent --add-port=30000-32767/udp
 ```
 * If your Rancher server nodes have separate roles, use the following commands based on the role of the node:
 ```
-# For etcd nodes, run the following commands:
+## For etcd nodes, run the following commands:
 sudo firewall-cmd --permanent --add-port=2376/tcp
 sudo firewall-cmd --permanent --add-port=2379/tcp
 sudo firewall-cmd --permanent --add-port=2380/tcp
@@ -61,7 +65,7 @@ sudo firewall-cmd --permanent --add-port=8472/udp
 sudo firewall-cmd --permanent --add-port=9099/tcp
 sudo firewall-cmd --permanent --add-port=10250/tcp
 
-# For control plane nodes, run the following commands:
+## For control plane nodes, run the following commands:
 sudo firewall-cmd --permanent --add-port=80/tcp
 sudo firewall-cmd --permanent --add-port=443/tcp
 sudo firewall-cmd --permanent --add-port=2376/tcp
@@ -73,7 +77,7 @@ sudo firewall-cmd --permanent --add-port=10254/tcp
 sudo firewall-cmd --permanent --add-port=30000-32767/tcp
 sudo firewall-cmd --permanent --add-port=30000-32767/udp
 
-# For worker nodes, run the following commands:
+## For worker nodes, run the following commands:
 sudo firewall-cmd --permanent --add-port=22/tcp
 sudo firewall-cmd --permanent --add-port=80/tcp
 sudo firewall-cmd --permanent --add-port=443/tcp

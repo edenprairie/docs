@@ -1,3 +1,7 @@
+---
+title: "What Is QSFP Connector, QSFP+ Connector and QSFP28 Connector?"
+---
+
 # What Is QSFP Connector, QSFP+ Connector and QSFP28 Connector?
 
 

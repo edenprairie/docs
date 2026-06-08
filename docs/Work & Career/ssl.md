@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: "Configuring NGINX with Cloudflare Origin Certificate for SSL"
 ---
 # 🔐 Configuring NGINX with Cloudflare Origin Certificate for SSL
 

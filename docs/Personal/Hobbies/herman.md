@@ -1,3 +1,7 @@
+---
+title: "Herman Miller Aeron"
+---
+
 # Herman Miller Aeron
 
 Herman Miller Aeron

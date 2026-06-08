@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+title: "Household Cybersecurity Guidance"
 ---
 
-# Family Cyber Security Guidance
+# Household Cybersecurity Guidance
 
 ## Credential management:
 

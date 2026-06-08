@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: "Virtualize vs. Containerize"
 ---
 # Virtualize vs. Containerize
 

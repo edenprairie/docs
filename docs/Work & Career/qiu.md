@@ -1,3 +1,7 @@
+---
+title: "丘成桐：数学史大纲（Brief History of Math）"
+---
+
 # 丘成桐：数学史大纲（Brief History of Math）
 
 丘成桐：数学史大纲（Brief History of Math）

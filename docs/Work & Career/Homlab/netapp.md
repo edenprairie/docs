@@ -1,4 +1,8 @@
-# Netapp DS4246 storage array shelf
+---
+title: "NetApp DS4246 Storage Array Shelf"
+---
+
+# NetApp DS4246 Storage Array Shelf
 
 Jake meyer-6128760500. Feel free to call if you cant find the door. Thanks 
 

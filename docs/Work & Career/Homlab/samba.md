@@ -1,4 +1,8 @@
-# Samba share on zfs and NFS setup
+---
+title: "Samba Share on ZFS and NFS Setup"
+---
+
+# Samba Share on ZFS and NFS Setup
 
 https://forum.level1techs.com/t/how-to-create-a-nas-using-zfs-and-proxmox-with-pictures/117375
 https://stackoverflow.com/questions/21951556/changing-the-owner-of-folder-in-linux

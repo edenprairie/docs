@@ -1,0 +1,8 @@
+{
+  "label": "Homelab Infrastructure",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "description": "Infrastructure notes for servers, storage, networking, virtualization, and lab operations."
+  }
+}

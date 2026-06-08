@@ -1,7 +1,8 @@
 ---
 sidebar_position: 4
+title: "Enterprise Architecture Responsibilities"
 ---
-# Job responsibility
+# Enterprise Architecture Responsibilities
 
 • Lead EA strategy and portfolio management for 600+ applications
 - Develop modernization roadmap to evolve applications to future states (cloud, streaming, AI, etc.).

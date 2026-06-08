@@ -1,23 +1,241 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  display: grid;
+  align-items: center;
+  padding: clamp(3rem, 8vw, 7rem) 1.5rem;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroInner,
+.main {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.42fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: end;
+}
+
+.heroCopy {
+  max-width: 760px;
+}
+
+.kicker {
+  color: var(--site-accent);
+  font-size: 0.76rem;
+  font-weight: 820;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.85rem;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  font-size: clamp(3.6rem, 11vw, 9.4rem);
+  letter-spacing: 0;
+  line-height: 0.88;
+  margin: 0;
+  max-width: 9.8ch;
+}
+
+.heroSubtitle {
+  color: var(--site-muted);
+  font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+  line-height: 1.55;
+  margin: 1.5rem 0 0;
+  max-width: 34rem;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 2rem;
+}
+
+.statusPanel {
+  background: var(--site-paper);
+  border: 1px solid var(--site-line);
+  border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(23, 32, 29, 0.12);
+  padding: clamp(1.2rem, 3vw, 1.6rem);
+}
+
+.statusLabel {
+  color: var(--site-muted);
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 760;
+  margin-bottom: 1rem;
+}
+
+.statusPanel strong {
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.18;
+}
+
+.statusPanel p {
+  color: var(--site-muted);
+  margin: 1rem 0 1.25rem;
+}
+
+.statusGrid {
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.statusGrid span {
+  border: 1px solid var(--site-line);
+  border-radius: 6px;
+  color: var(--site-muted);
+  font-size: 0.82rem;
+  font-weight: 720;
+  padding: 0.55rem 0.65rem;
+}
+
+.main {
+  padding: 0 1.5rem 5rem;
+}
+
+.collections {
+  margin-top: -1.5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.sectionHeader h2,
+.maintenance h2 {
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  line-height: 1;
+  margin: 0;
+}
+
+.collectionGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.collectionCard {
+  background: var(--site-paper-strong);
+  border: 1px solid var(--site-line);
+  border-radius: 8px;
+  color: var(--site-ink);
+  display: flex;
+  flex-direction: column;
+  min-height: 210px;
+  padding: 1rem;
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.collectionCard:hover {
+  border-color: currentColor;
+  box-shadow: 0 18px 48px rgba(23, 32, 29, 0.1);
+  color: var(--site-ink);
+  text-decoration: none;
+  transform: translateY(-3px);
+}
+
+.cardRule {
+  display: block;
+  height: 4px;
+  margin-bottom: auto;
+  width: 52px;
+}
+
+.collectionCard h2 {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  margin: 2.8rem 0 0.7rem;
+}
+
+.collectionCard p {
+  color: var(--site-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.teal .cardRule {
+  background: var(--site-teal);
+}
+
+.plum .cardRule {
+  background: var(--site-plum);
+}
+
+.gold .cardRule {
+  background: var(--site-gold);
+}
+
+.rust .cardRule {
+  background: var(--site-accent);
+}
+
+.maintenance {
+  align-items: end;
+  border-top: 1px solid var(--site-line);
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 0.8fr 1fr;
+  margin-top: clamp(3rem, 7vw, 5rem);
+  padding-top: 2rem;
+}
+
+.maintenance p:last-child {
+  color: var(--site-muted);
+  font-size: 1.04rem;
+  margin: 0;
+}
+
+@media (max-width: 996px) {
+  .heroBanner {
+    min-height: auto;
+  }
+
+  .heroInner,
+  .maintenance {
+    grid-template-columns: 1fr;
+  }
+
+  .collectionGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .heroBanner,
+  .main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .buttons {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .buttons a {
+    text-align: center;
+  }
+
+  .sectionHeader {
+    display: block;
+  }
+
+  .collectionGrid {
+    grid-template-columns: 1fr;
+  }
 }

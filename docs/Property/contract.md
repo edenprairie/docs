@@ -1,4 +1,8 @@
-# Contract list and others
+---
+title: "Contracts and Records"
+---
+
+# Contracts and Records
 
 ## Roofers
 

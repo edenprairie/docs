@@ -1,5 +1,6 @@
 ---
 sidebar_position: 98
+title: "Red Wing Heritage Round Toe List - As of 11/05/19"
 ---
 # Red Wing Heritage Round Toe List - As of 11/05/19
 

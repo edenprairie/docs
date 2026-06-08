@@ -1,7 +1,8 @@
 ---
 sidebar_position: 0
+title: "Chinese Q2 Visa Application"
 ---
-# How to apply Chinese Q2 VISA
+# Chinese Q2 Visa Application
 
 ## Agent contact
 Mag Vacations  
