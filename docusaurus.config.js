@@ -72,8 +72,8 @@ const config = {
       navbar: {
         logo: {
           href: '/',
-          src: '/logo/light.svg',
-          srcDark: '/logo/dark.svg',
+          src: '/logo/light.svg?v=20260608',
+          srcDark: '/logo/dark.svg?v=20260608',
           alt: 'Jun Library',
           height: '44px',
           width: '168px',
