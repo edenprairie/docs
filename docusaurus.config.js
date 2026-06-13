@@ -64,6 +64,25 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: 'filename',
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsRouteBasePath: 'docs',
+        blogRouteBasePath: 'blog',
+        language: ['en', 'zh'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 80,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -111,6 +130,7 @@ const config = {
             label: 'Career',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { type: 'search', position: 'right' },
           {
             href: 'https://github.com/edenprairie/docs',
             label: 'GitHub',
